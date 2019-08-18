@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header.green {
+  min-height: 50px;
+  width: 100%;
+  background-color: #00CF45;
+  position: relative;
+}
+header.green div.floating {
+  background-color: #ffffff;
+  border-radius: 15px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 20%;
+  top: 30px;
+  padding: 0 30px;
+}
+header.green div.floating p {
+  font-size: 30px;
+  color: #777;
+  margin: 0;
+}
+
+div.content {
+  background-color: #0C0977;
+  min-height: 100vh;
+}
+div.content div.banner {
+  display: flex;
+  flex-direction: column;
+}
+div.content div.banner div.logo {
+  margin: 15px 30px 0 0;
+  color: #ffffff;
+  font-size: 45px;
+  align-self: flex-end;
+}
+div.content div.banner nav.links {
+  display: flex;
+  align-self: center;
+}
+div.content div.banner nav.links p {
+  margin: 0 10px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+div.content div.banner nav.links div.chart p {
+  color: #ffffff;
+  font-size: 11px;
+}
+div.content div.banner div.interations {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 250px 0 25px;
+  margin-top: 15px;
+}
+div.content div.banner div.interations input {
+  border-radius: 5px;
+  min-width: 80%;
+  height: 35px;
+}
+div.content div.banner div.interations div.social p {
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
