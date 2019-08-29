@@ -1,71 +1,90 @@
 * {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
-header.green {
+body {
+  background-color: #0C0977 !important;
+  min-height: 100vh; }
+
+.header {
   min-height: 50px;
   width: 100%;
   background-color: #00CF45;
-  position: relative;
-}
-header.green div.floating {
-  background-color: #ffffff;
-  border-radius: 15px;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 20%;
-  top: 30px;
-  padding: 0 30px;
-}
-header.green div.floating p {
-  font-size: 30px;
-  color: #777;
-  margin: 0;
-}
+  position: relative; }
+  .header--enter {
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20%;
+    top: 30px;
+    padding: 0 30px; }
+    .header--enter p {
+      font-size: 30px;
+      color: #777;
+      margin: 0; }
 
-div.content {
-  background-color: #0C0977;
-  min-height: 100vh;
-}
-div.content div.banner {
+.banner {
   display: flex;
-  flex-direction: column;
-}
-div.content div.banner div.logo {
-  margin: 15px 30px 0 0;
-  color: #ffffff;
-  font-size: 45px;
-  align-self: flex-end;
-}
-div.content div.banner nav.links {
-  display: flex;
-  align-self: center;
-}
-div.content div.banner nav.links p {
-  margin: 0 10px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-div.content div.banner nav.links div.chart p {
-  color: #ffffff;
-  font-size: 11px;
-}
-div.content div.banner div.interations {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 250px 0 25px;
-  margin-top: 15px;
-}
-div.content div.banner div.interations input {
-  border-radius: 5px;
-  min-width: 80%;
-  height: 35px;
-}
-div.content div.banner div.interations div.social p {
-  color: #fff;
-}
+  flex-direction: column; }
+  .banner--logo {
+    margin: 15px 30px 0 0;
+    color: #ffffff;
+    font-size: 45px;
+    align-self: flex-end; }
+  .banner--links {
+    display: flex;
+    align-self: center;
+    align-items: baseline; }
+    .banner--links a {
+      text-decoration: none;
+      padding: 0 10px;
+      text-transform: uppercase;
+      color: #ffffff !important; }
+      .banner--links a:not(:first-child) {
+        border-left: 1px solid #fff; }
+    .banner--links .cart {
+      display: flex; }
+      .banner--links .cart p {
+        color: #ffffff;
+        font-size: 11px;
+        margin: 0 0 0 10px; }
+      .banner--links .cart i {
+        color: #000;
+        font-size: 30px; }
+  .banner--interations {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 250px 0 25px;
+    margin-top: 15px; }
+    .banner--interations .search {
+      position: relative;
+      min-width: 75%; }
+      .banner--interations .search input {
+        border-radius: 5px;
+        height: 35px;
+        padding-left: 30px;
+        min-width: 100%; }
+      .banner--interations .search label {
+        font-size: 20px;
+        position: absolute;
+        z-index: 1;
+        left: 5px;
+        top: 1px; }
+    .banner--interations .social p {
+      color: #fff; }
+    .banner--interations .social--icons {
+      display: flex;
+      justify-content: space-between; }
+      .banner--interations .social--icons i {
+        font-size: 45px; }
+        .banner--interations .social--icons i.fa-youtube-play {
+          color: #F9061B; }
+        .banner--interations .social--icons i.fa-facebook-official {
+          color: #1877F2; }
+        .banner--interations .social--icons i.fa-twitter {
+          color: #55ACEF; }
 
 /*# sourceMappingURL=main.css.map */

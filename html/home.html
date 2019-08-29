@@ -9,34 +9,41 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
-    <header class="green">
-        <div class="floating">
+    <header class="header">
+        <div class="header--enter">
             <p>Entre ou cadastre-se!</p>
         </div>
     </header>
-    <div class="content">
-        <div class="banner">
-            <div class="logo">Logo</div>
-            <nav class="links">
-                <p>Quem somos</p>
-                <p>Meus pedidos</p>
-                <p>Minha conta</p>
-                <div class="chart"><p>Carrinho de<br>compras!</p></div>
-            </nav>
-            <div class="interations">
+    <section class="banner">
+        <div class="banner--logo">Logo</div>
+        <nav class="banner--links">
+            <a>Quem somos</a>
+            <a>Meus pedidos</a>
+            <a>Minha conta</a>
+            <div class="cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <p>Carrinho de<br>compras!</p>
+            </div>
+        </nav>
+        <div class="banner--interations">
+            <div class="search">
+                <label><i class="fa fa-search"></i></label>
                 <input placeholder="Pesquise aqui!" type="text" class="search">
-                <div class="social">
-                    <div class="media">
-                        
-                    </div>
-                    <p>Siga-nos nas redes sociais!</p>
+            </div>
+            <div class="social">
+                <div class="social--icons">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa fa-twitter" aria-hidden="true"></i>
                 </div>
+                <p>Siga-nos nas redes sociais!</p>
             </div>
         </div>
-    </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
